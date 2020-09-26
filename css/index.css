@@ -1,5 +1,40 @@
-@tailwind base;
+.header{
+    background-color: black;
+    border-radius: 7px;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+.logo{
+    margin-top: -70px;
+    margin-left: -30px;
+    margin-bottom: -30px;
+}
+.navbar{
+    display: inline;
+    
+}
+.nav{
+    margin-top: -117px;
+    color: red;
 
-@tailwind components;
+}
+.navlinks{
+    padding-bottom: -3px;
+    border-radius: 5px;
+    display: inline;
+    margin-left: 5px;
+    float: right;
+    max-resolution: 23px;
+    margin: 5px;
+    
+}
+.navlinks a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: rgb(252, 238, 38);
 
-@tailwind utilities;
+}
+.navlinks:hover{
+    background-color: rgb(255, 52, 52);
+}
